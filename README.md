@@ -25,14 +25,6 @@ constraints:
 -   [x] User must be notified if anything other than a 0 or 1 was entered
 -   [x] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
 
-## Bonus features
-
--   [ ] User can enter a variable number of binary digits
-
-## Useful links and resources
-
-[Binary number system](https://en.wikipedia.org/wiki/Binary_number)
-
 ## Demo project
 
 -   [Npx | Bin2Dec](https://www.youtube.com/watch?v=YMIALQE26KQ)
