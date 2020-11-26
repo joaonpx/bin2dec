@@ -24,8 +24,8 @@ main {
     align-items: center;
     justify-content: center;
 
-    border: 2.5px solid #ffffff;
-    border-radius: 20px;
+    /* border: 2.5px solid #ffffff;
+    border-radius: 20px; */
 
     padding-bottom: 25px;
 }
