@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Npx | Bin2Dec</title>
 
     <!-- Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Css -->
-    <link rel="stylesheet" href="./css/animatios.css">
-    <link rel="stylesheet" href="./css/main.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="./css/animatios.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
     <main class="animate-up">
-        <div class="container animate-up">
-            <h1>Bin2Dec</h1>
-                <p>Convert a binary number to a decimal number:</p>
-                <!-- Binary Number input -->
-                <div class="input-block animate-up">
-                    <input name="binary-number" id="binary-number" type="number"  placeholder="Enter a binary number">
-                </div>
-                <!-- Decimal number result input -->
-                <div class="input-block animate-up">
-                    <input name="result-number" id="result-number" type="text" value="Result" disabled="disabled">
-                </div>
-                <button class="button animate-up" onclick="convert()">Convert</button>
+      <div class="container animate-up">
+        <h1>Bin2Dec</h1>
+        <p>Convert a binary number to a decimal number:</p>
+        <!-- Binary Number input -->
+        <div class="input-block animate-up">
+          <input
+            name="binary-number"
+            id="binary-number"
+            type="number"
+            placeholder="Enter a binary number"
+          />
         </div>
+        <!-- Decimal number result input -->
+        <div class="input-block animate-up">
+          <input
+            name="result-number"
+            id="result-number"
+            type="text"
+            value="Result"
+            disabled="disabled"
+          />
+        </div>
+        <button class="button animate-up" onclick="convert()">Convert</button>
+      </div>
     </main>
 
     <span class="animate-up credits">
-        Created by: <a href="https://github.com/npx08">Npx</a>
+      Created by: <a href="https://github.com/npx08">Npx</a>
     </span>
 
-     <!-- Script -->
-     <script src="./scripts/index.js"></script>
-</body>
+    <!-- Script -->
+    <script src="./scripts/index.js"></script>
+  </body>
 </html>
