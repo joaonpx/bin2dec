@@ -27,4 +27,4 @@ constraints:
 
 ## Demo project
 
--   [Npx | Bin2Dec](https://npx08.github.io/bin2dec.github.io/)
+-   [Npx | Bin2Dec](https://npx08.github.io/bin2dec)
